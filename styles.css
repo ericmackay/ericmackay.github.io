@@ -1,0 +1,44 @@
+html,
+body {
+  margin: 0;
+  background: #facac0;
+  font-family: 'Comic Sans MS', 'Comic Sans', cursive, Trebuchet, 'Trebuchet MS',
+    Arial, sans serif;
+  border: 10px solid #facac0;
+  box-shadow: inset 0 0 0 4px #112378;
+  height: 94vh;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 94vh;
+}
+
+.inner-container {
+  width: auto;
+  color: #112378;
+  text-align: center;
+}
+
+.inner-container h1,
+h4 {
+  margin: auto;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+h4 {
+  font-size: 24px;
+}
+@media only screen and (max-width: 500px) {
+  .inner-container h1 {
+    font-size: 36px;
+  }
+  .inner-container h4 {
+    font-size: 20px;
+  }
+}
